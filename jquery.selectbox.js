@@ -40,10 +40,6 @@
 								if(options.eq(i2).val() == ind){
 									that.find("option").eq(i2).attr("selected", "selected")
 								}
-								/*var optn = $(".div_option").eq(i2)
-								if(optn.data("value") == ''){
-									optn.remove()
-								}*/
 								i2++;
 							}
 							// move emuled option to begin, like option in select
