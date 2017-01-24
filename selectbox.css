@@ -1,0 +1,46 @@
+		.hidden{
+			display: none;
+		}
+		
+		.select_cont{
+			height: 28px;
+			width: 200px;
+			position: relative;
+			z-index: 10;
+		}
+		.select_cont.opened{
+			z-index: 100;
+		}
+		.div_select{
+			background: #efefef;
+			height: 28px;
+			width: 200px;
+			overflow: hidden;
+			transition: height .3s ;
+			position: absolute;
+			cursor: pointer;
+		}
+		.div_select:before{
+		    content: '';
+		    display: inline-block;
+		    background-repeat: no-repeat;
+		    background-position: 100% 0;
+		    width: 30px;
+		    height: 28px;
+		    position: absolute;
+		    right: 0;
+		    background-image: url('New Project (2).png');
+		}
+		.div_option{
+			/*height: 50px;*/
+			border: 1px solid grey;
+			padding: 5px;
+			/*width: 200px;*/
+			cursor: pointer;
+		}
+		.div_option.selected{
+			background: #ddd;
+		}
+		.div_option:hover{
+			background: #ddd;
+		}
