@@ -32,9 +32,9 @@
 		    background-image: url('New Project (2).png');
 		}
 		.div_option{
-			/*height: 50px;*/
+			height: 28px;
 			border: 1px solid grey;
-			padding: 5px;
+			padding: 4px;
 			/*width: 200px;*/
 			cursor: pointer;
 		}

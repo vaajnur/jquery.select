@@ -1,3 +1,4 @@
+;(function($){
 $.fn.customSelect = function (){
 	$(this).each( function(){
 		$(this).addClass("hidden")
@@ -78,4 +79,4 @@ $.fn.customSelect = function (){
 		select_cont.insertBefore($(this))
 	})
 }
-
+})(jQuery);
